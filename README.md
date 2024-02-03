@@ -1,3 +1,3 @@
 # AI-image-sorting
 
-1.man & woman
+1. man & woman
