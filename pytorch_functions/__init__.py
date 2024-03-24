@@ -114,6 +114,7 @@ def fit(net, optimizer, criterion, num_epochs, train_loader, test_loader, device
         print (f'Epoch [{(epoch+1)}/{num_epochs+base_epochs}], loss: {avg_train_loss:.5f} acc: {avg_train_acc:.5f} val_loss: {avg_val_loss:.5f}, val_acc: {avg_val_acc:.5f}')
         item = np.array([epoch+1, avg_train_loss, avg_train_acc, avg_val_loss, avg_val_acc])
         history = np.vstack((history, item))
+        print(f'정확도: ', round(avg_val_acc*100, 2), '%')
     return history
 
 
