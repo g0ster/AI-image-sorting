@@ -1,3 +1,4 @@
 # AI-image-sorting
 
-1. man & woman
+1. image datasets
+2. useful functions
